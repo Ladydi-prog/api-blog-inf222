@@ -1,0 +1,19 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "API REST pour gérer un blog - INF222 TAF1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.x.x",
+    "cors": "^2.x.x",
+    "express": "^4.22.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1",
+    "swagger-jsdoc": "^6.x.x",
+    "swagger-ui-express": "^5.x.x"
+  }
+}
